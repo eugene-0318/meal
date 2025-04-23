@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	@font-face {
+	font-family: 'Eulyoo1945';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(Eulyoo1945-Regular.eot),
+	url(Eulyoo1945-Regular.woff2) format("woff2"),
+	url(Eulyoo1945-Regular.woff) format("woff"),
+	url(Eulyoo1945-Regular.ttf) format("truetype");
+	}
+
+	@font-face {
+	font-family: 'Eulyoo1945';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(Eulyoo1945-SemiBold.eot),
+	url(Eulyoo1945-SemiBold.woff2) format("woff2"),
+	url(Eulyoo1945-SemiBold.woff) format("woff"),
+	url(Eulyoo1945-SemiBold.ttf) format("truetype");
+	}
+	@font-face {
+    font-family: 'HSBombaram';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+	html{font-family: "Eulyoo1945"}
+	body {
+      margin: 0;
+      font-family: "Eulyoo1945";
+      background-color: black;
+      color: black;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: black;
+      color: white;
+      padding: 10px 0;
+      font-size: 28px;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 130px;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 50px;
+    } 
+
+    .div-header{padding: 0px}
+
+        .wrap{
+      background-color: white;
+    	width: 1150px;
+      margin: auto;
+      position: relative;
+      }
+
+      .gif{
+      	width: 517px;
+      	margin: auto;
+      	position: absolute;
+      	background-color: white;
+      	left: 10px;
+      	top: 470px;
+      }
+      .bento{
+      	width: 560px;
+      	position: absolute;
+      	right: 62px;
+      	top: -23px;
+      }
+      .img{
+      	width: 800px;
+      	padding-top: 60px; padding-bottom: 60px;
+      	margin: auto;
+      	background-color: black;
+      }
+      .img img{
+      	width: 800px;
+      	height: 200px;
+      }
+
+    h1{
+      font-family: "HSBombaram";
+      font-size: 130px;
+      font-weight: normal;
+      margin: auto;
+      letter-spacing: 20px;
+      text-align: left;
+    }
+
+    h2{
+      font-weight: 600;
+      font-size: 29px;
+      text-align: right;
+      padding-top: 290px;
+    }
+
+    .description {
+      font-size: 20px;
+      margin: auto;
+      line-height: 1.7;
+      padding-bottom: 50px;
+    } 
+
+    div{
+    	padding-top: 40px; padding-bottom: 60px;
+    }
+
+    .div-button{
+    	padding: 0;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    }
+
+    button {
+ 		 display: flex;
+ 		 flex-direction: column;
+ 		 align-items: center;
+ 		 gap: 10px;
+ 		 padding: 12px 20px;
+ 		 color: black;
+ 		 cursor: pointer;
+ 		 border: none;
+ 		 background: none;
+ 		 margin: auto;
+ 		}
+
+ 	button img{
+ 		 width: 300px;
+ 		 height: 120px;
+ 		 object-fit: cover;
+ 		 }
+ 	button span{
+ 		font-family: "Eulyoo1945";
+ 		font-weight: 600;
+ 		font-size: 20pt;
+ 		position: static;
+ 	}
+
+ .image-wrapper {
+  position: relative;
+  width: 300px;
+  height: 120px;
+  align-items: center;
+  margin: auto;
+}
+
+.image-wrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.img-hover {
+  opacity: 0;
+}
+
+button:hover .img-hover {
+  opacity: 1;
+}
+
+button:hover .img-default {
+  opacity: 0;
+}
+
+
+    footer {
+      font-size: 12px;
+      font-weight: 400;
+      background-color: black;
+      color: white;
+      padding: 50px;
+    }
+	</style>
+</head>
+<body>
+ <header>
+	<div class="div-header">氣內食</div>
+   	<div class="div-header">기내식</div>
+   	<div class="div-header">: 기분 안의 식사</div>
+ </header>
+ 	<section class="wrap">
+ 		<h1>오늘의</h1>
+ 		<div style="width: 2px; height: 100px; background-color: black; position: absolute; left: 108px; top: 236px;"></div>
+ 		<img src="mealfeel.gif" class="gif">
+ 		<img src="bentoedit.png" class="bento">
+ 		<h2>일일 기분 배달 서비스 '기내식'입니다.<br>기내식과 함께 오늘의 기분 한 끼를 즐겨 보아요!</h2>
+ 	</section>
+ 	<section class="img">
+ 	<img src="2.png">
+ 	</section>
+ 	<section class="wrap description">
+ 		<div style="font-size: 23px; margin: auto; color: white; background: black; width: 650px; padding: 10px;">'기내식'을 신청해 주신 고객님들께 감사의 말씀을 드리며, <br>아래의 안내 사항을 충분히 숙지한 뒤 이용해 주시기 바랍니다.</div>
+ 		<div style="text-align: left; padding-top: 100px;">
+ 			'기내식'에서는 <span style="font-weight: 600;">하루에 한 끼</span>의 기분을 배달해 드립니다.<br>매일매일 색다르게 구성된 <span style="font-weight: 600">랜덤 메뉴</span>를 배송해 드리며,<br>고객님께서는 날마다 배달되는 한 끼를 모두 섭취해 주시면 됩니다.
+ 		</div>
+ 		<div style="text-align: right;">
+ 			섭취와 동시에 고객님의 <span style="font-weight: 600;">“오늘의 기분”</span>이 설정되며,<br>한 끼의 기분이 갖는 효력은 <span style="font-weight: 600;">약 24시간</span>입니다.<br>고객님께서는 자신의 호불호와 무관하게 “오늘의 기분”과 함께 하루를 보내셔야 합니다.
+ 		</div>
+ 		<div style="width: 2px; height: 35px; background-color: black; margin: auto;"></div>
+ 		<div style="font-weight: 600; font-size: 23px;">
+ 			다시 말씀 드리지만 메뉴는 랜덤이며,<br>고객님께서 특정 메뉴를 선택하실 수는 없습니다.
+ 		</div>
+ 
+ 		<div class="wrap">
+ 			고객님께서는 다음의 다섯 가지 메뉴 중 하나를 수령하시게 됩니다.<br><span style="font-size: 17px">메뉴명과 사진을 클릭하시면 보다 자세한 메뉴 소개를 확인하실 수 있습니다.
+ 		</div>
+ 		<div style="display: flex;">
+ 			<button onclick="location.href='index3.html'">
+ 				<div class="div-button image-wrapper">
+  				<img src="sweetcover.png" alt="a">
+  				<img src="sweetcovercolor.png" class="img-hover">
+  					</div>
+  				<span>단맛</span>
+			</button>
+ 			<button onclick="location.href='index4.html'"> 
+ 				<div class="div-button image-wrapper">
+ 				<img src="bittercover.png">
+ 				<img src="bittercovercolor.png" class="img-hover">
+ 				</div>
+ 				<span>쓴맛</span>
+ 			</button>
+ 			<button onclick="location.href='index5.html'">
+ 				<div class="div-button image-wrapper">
+ 				<img src="sourcover.png">
+ 				<img src="sourcovercolor.png" class="img-hover">
+ 				</div>
+ 				<span>신맛</span>
+ 			</button>
+ 		</div>
+ 		<div style="display: flex; padding-top: 0px;padding-left: 190px; padding-right: 190px;">
+ 			<button onclick="location.href='index6.html'">
+ 				<div class="div-button image-wrapper">
+ 				<img src="umamicover.png">
+ 				<img src="umamicovercolor.png" class="img-hover">
+ 				</div>
+ 				<span>감칠맛</span>
+ 			</button>
+ 			<button onclick="location.href='index7.html'">
+ 				<div class="div-button image-wrapper">
+ 				<img src="spicycover.png">
+ 				<img src="spicycovercolor.png" class="img-hover">
+ 				</div>
+ 				<span>매운맛</span>
+ 			</button>
+ 		</div>
+
+ 	</section>
+   <footer>
+    2025 Web Publishing © 정유진 모든 권리 보유
+   </footer>
+</body>
+</html>

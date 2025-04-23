@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	@font-face {
+	font-family: 'Eulyoo1945';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(Eulyoo1945-Regular.eot),
+	url(Eulyoo1945-Regular.woff2) format("woff2"),
+	url(Eulyoo1945-Regular.woff) format("woff"),
+	url(Eulyoo1945-Regular.ttf) format("truetype");
+	}
+
+	@font-face {
+	font-family: 'Eulyoo1945';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(Eulyoo1945-SemiBold.eot),
+	url(Eulyoo1945-SemiBold.woff2) format("woff2"),
+	url(Eulyoo1945-SemiBold.woff) format("woff"),
+	url(Eulyoo1945-SemiBold.ttf) format("truetype");
+	}
+	@font-face {
+    font-family: 'HSBombaram';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/HSBombaram.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+
+	body {
+      margin: 0;
+      font-family: "Eulyoo1945";
+      background-color: black;
+      color: black;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: black;
+      color: white;
+      padding: 10px 0;
+      font-size: 28px;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 130px;
+      cursor: pointer;
+    }
+
+    section {
+      padding: 50px;
+    }
+
+    img{width: 625px}
+
+    .wrap{
+      background-color: white;
+    	width: 1150px;
+      margin: auto;
+    }
+
+    h1{
+      font-family: "HSBombaram";
+      font-size: 250px;
+      font-weight: normal;
+      margin: auto;
+      letter-spacing: 50px;
+      text-align: left;
+    }
+
+    h2{
+      font-weight: 600;
+      font-size: 68px;
+      text-align: left;
+      position: absolute;
+      top: 420px;
+    }
+
+    .description {
+      font-size: 20px;
+      margin: auto;
+      line-height: 1.7;
+      padding-bottom: 50px;
+    }
+
+    a{
+      font-size: 25px;
+      background-color: black;
+      color: white;
+      display: inline-block;
+      padding: 15px 25px;
+      cursor: pointer;
+      line-height: 1.6;
+      text-decoration: none;
+      animation: glow alternate infinite linear 3s;
+    }
+
+    .temper {
+      display: flex;
+      padding-top: 100px;
+      width: 1150px;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+    .temper-wrap{
+      width: 1250px;
+      background-color: white;
+      padding: 0px;
+      margin: auto;
+    }
+
+
+    footer {
+      font-size: 12px;
+      font-weight: 400;
+      background-color: black;
+      color: white;
+      padding: 50px;
+    }
+
+    /* css animation definition*/
+    @keyframes glow{
+      from{text-shadow: 0px 0px 0px white;}
+      to{text-shadow: 0px 0px 15px white;}
+    }
+
+	</style>
+
+	<body>
+		 <header>
+	    <div>氣內食</div>
+    	<div>기내식</div>
+    	<div>: 기분 안의 식사</div>
+ 	 	</header>
+    <section class="wrap">
+  	 <h1>기내식</h1>
+  	 <h2><span style="font-size: 100px;">氣內食</span> : 기분 안의 식사</h2>
+    </section>
+    <section class="temper-wrap">
+    <div class="temper">
+      <img src="temper.png">
+      <img src="temper.png">
+    </div>
+    </section>
+    <section class="wrap description">
+ 	  <div>
+    날마다 내 맘대로 되지 않는 기분 탓에 곤경에 빠져보신 분들이 계실 것입니다.<br>
+    뚜렷한 이유가 있는 것도 아닌데 괜히 평소와 다르게 행동하게 되고,<br>
+    때로는 주변에 폐를 끼치고, 나중에 후회하고...
+  	</div>
+  </section>
+  <section class="wrap">
+   	<div> <span style="cursor: pointer; line-height: 1.5; font-size: 18px; letter-spacing: 1px">▼ Click here</span></div>
+  	<div>
+      <a href="index2.html">이렇게 내 맘대로 안 되는 오늘 내 기분,<br>다른 기분으로 바꿀 수 있다면?</a>
+   </section>
+    <footer>
+    2025 Web Publishing © 정유진 모든 권리 보유
+   </footer>
+
+</body>
+</html>
