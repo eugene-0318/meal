@@ -78,7 +78,7 @@
       cursor: pointer;
       line-height: 1.6;
       text-decoration: none;
-      animation: glow alternate infinite linear 3s;
+      animation: glow alternate infinite linear 2s;
     }
 
     .temper {
@@ -102,12 +102,13 @@
       background-color: black;
       color: white;
       padding: 50px;
+      line-height: 200%;
     }
 
     /* css animation definition*/
     @keyframes glow{
-      from{text-shadow: 0px 0px 0px white;}
-      to{text-shadow: 0px 0px 15px white;}
+      from{text-shadow: 0px 0px 0px white, 0px 0px 0px white;}
+      to{text-shadow: 0px 0px 13px white, 0px 0px 13px white;}
     }
 
 	</style>
@@ -141,6 +142,7 @@
       <a href="index2.html">이렇게 내 맘대로 안 되는 오늘 내 기분,<br>다른 기분으로 바꿀 수 있다면?</a>
    </section>
     <footer>
+       <span style="font-weight: 600; font-size: 20px;">기내식 氣內食 : 기분 안의 식사</span><br>
     2025 Web Publishing © 정유진 모든 권리 보유
    </footer>
 

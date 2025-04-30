@@ -131,12 +131,20 @@
     	margin: auto;
     }
 
+    .spoon{width: 200px; animation: flash-once 2s infinite;}
+
+    @keyframes flash-once {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
         footer {
       font-size: 12px;
       font-weight: 400;
       background-color: black;
       color: white;
       padding: 50px;
+      line-height: 200%;
     }
 
   </style>
@@ -166,6 +174,7 @@
     	<div class="highlight" style="padding: 0;">
     		그러니 한 끼의 기분에 지나치게 매몰되어 계시는 것은 권장하지 않는다는 점<span style="font-weight: 400;">을<br>마지막으로 당부 드리겠습니다.</span>
 			</div>
+            <img src="spoon.png" class="spoon">
     </section>
     <section class="img">
     	<div class="highlight">
@@ -187,6 +196,7 @@
     </ul>
     </section>
    <footer>
+    <span style="font-weight: 600; font-size: 20px;">기내식 氣內食 : 기분 안의 식사</span><br>
     2025 Web Publishing © 정유진 모든 권리 보유
    </footer>
 </body>

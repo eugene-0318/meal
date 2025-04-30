@@ -62,6 +62,7 @@
       background-color: black;
       color: white;
       padding: 50px;
+      line-height: 200%;
     }
 
     .div-header{padding: 0px}
@@ -135,6 +136,14 @@
       visibility: hidden;
     }
 
+     .mu{position: absolute; left: 970px; top: 250px; width: 170px; animation: opa 2s infinite;  z-index: 10;}
+
+    .fixed{position: fixed; left: 1160px; top: 440px;}
+
+       @keyframes opa{
+    from{transform: rotateY(0deg) rotateZ(0deg);}
+    to{transform: rotateY(360deg) rotateZ(360deg);}
+
   </style>
 </head>
 <body>
@@ -155,6 +164,7 @@
  	</div>
   </section>
   <section class="wrap">
+     <img src="fork.png" class="mu fixed">
  	<img src="bitter2.png" style="width: 568px; left:-281px; top: -22px;">
  	<img src="bitter1.png" style="width: 885px; right: -53px; top: -270px;">
  	<div class="bold">
@@ -173,6 +183,7 @@
   </section> 	
  </section>
     <footer>
+       <span style="font-weight: 600; font-size: 20px;">기내식 氣內食 : 기분 안의 식사</span><br>
     2025 Web Publishing © 정유진 모든 권리 보유
    </footer>
 </body>
